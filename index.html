@@ -1,0 +1,25 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+  <title>Practice Your Craft</title>
+  
+  <link href="styles/prettify.css" type="text/css" rel="stylesheet"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+        
+  <script src="server/app.js"></script>
+  <script src="server/router.js"></script>
+  <script src="server/directive.js"></script>
+  <script src="controllers/home_ctrl.js"></script>
+  
+</head>
+
+<body ng-controller="MainController as mainController">
+  
+  <div ui-view></div>
+
+</body>
+
+</html>
